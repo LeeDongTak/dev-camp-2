@@ -8,12 +8,12 @@ import MembershipInfo from './MembershipInfo';
 
 const Info = () => {
   return (
-    <Card className={cn('w-[57.5%] h-[100%] bg-[#000]')}>
+    <div className={cn('flex flex-col gap-[20px] w-[100%] h-[100%] mx-auto')}>
       <ProductInfo />
       <OrderInfo />
       <ShippingInfo />
       <MembershipInfo />
-    </Card>
+    </div>
   );
 };
 
